@@ -2,3 +2,7 @@
 
 /* Affiliation and public contact information. */
 .intro .role{margin-bottom:7px}.affiliation{font-size:13px;color:var(--muted);line-height:1.75;margin:0 0 22px}.contact-links{display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:25px;font-size:12px;color:var(--accent)}.contact-links a{overflow-wrap:anywhere;text-underline-offset:4px}.contact-links a:hover{text-decoration:underline}.contact-links span{margin-left:4px}@media print{.contact-links{color:var(--ink)}}
+
+/* Award names and years; certificates are not published. */
+.awards-list{display:grid;gap:26px}.award-item{display:grid;grid-template-columns:60px minmax(0,1fr);gap:20px}
+@media(max-width:540px){.header{flex-wrap:wrap;gap:8px 18px;padding:20px 0 8px}.header .language{margin-left:auto}.header nav{order:3;flex-basis:100%;margin-left:0;gap:25px}.award-item{grid-template-columns:44px minmax(0,1fr);gap:16px}}
